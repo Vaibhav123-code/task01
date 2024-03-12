@@ -1,0 +1,52 @@
+.main-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem 3rem;
+}
+.heading1, .heading2 {
+  font-size: 6rem;
+  margin: 0;
+}
+.heading1:hover {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--white);
+     color: var(--black);
+     transition: all 0.3s;
+}
+.heading2{
+    color: var(--blue);
+}
+.info-text {
+    color: var(--grey);
+    font-weight: 300;
+}
+.btn-flex{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1.5rem;
+}
+.gradient-div {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+}
+.gradient {
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    width: 250px;
+}
+.iphone {
+    position: absolute;
+    right: 10px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
