@@ -1,9 +1,103 @@
-.grey-wrapper {
-    background-color: var(--darkgrey);
-    padding: 1rem;
-    padding-bottom: 0.5rem;
-    border-radius: 1rem;
+.p-wrapper {
     width: 90%;
-    display: block;
-    margin: 1.5rem auto;
-  }
+    margin: auto;
+    box-sizing: border-box;
+}
+.pro-header {
+    position: absolute;
+    top: 10px;
+    left: 2rem;
+}
+.p-container {
+    margin-top: 2rem;
+}
+.p-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.p-title h1 {
+    font-size: 40px;
+}
+.p-description{
+    color: grey;
+    text-align: start;
+    width: 400px;
+   position: relative;
+   top: -20px;
+}
+.p-time {
+    display: flex;
+    font-weight: 600;
+    justify-content: flex-start;
+    align-items: center;
+}
+.theme {
+    position: absolute;
+    top: 1rem;
+    right: 0rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: orange;
+    opacity: 0.1;
+    z-index: 2;
+}
+.p-img {
+   position: absolute;
+    top: 7rem;
+    right: -5rem;
+    z-index: 1;
+}
+.p-img img {
+    width: 400px;
+}
+.p-divider {
+    margin-top: 1rem;
+    width: 80%;
+    background-color: grey;
+    height: 4px;
+    opacity: 0.2;
+}
+.ingradient {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.ingradient h2 {
+    margin: 0;
+    padding: 2px;
+}
+.i-list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+}
+.i-table {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.appliance {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+   
+}
+.ref-img {
+    width: 100px;
+    height: auto;
+    background-color: lightgray;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-top: 5px;
+}

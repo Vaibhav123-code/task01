@@ -1,0 +1,67 @@
+.food-type {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.round-btn {
+    width: 100px;
+    border: 1px solid orange;
+    font-weight: 500;
+    padding: 0.3rem;
+    border-radius: 3rem;
+    text-align: center;
+    color: orange;
+}
+.cuisine-container {
+    width: 90%;
+    margin: auto;
+}
+.main-container{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    padding-bottom: 3rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+} 
+.scroll-container {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 2rem; 
+}
+.dish-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: 2px solid orange;
+    padding: 3px;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+.dish-circle img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.f-title {
+    background: rgba(0, 0, 0, 0.4);
+    width: 69px;
+    height: 69px;
+    border-radius: 50%;
+    position: relative;
+    top: -4.6rem;
+}
+.f-title p {
+    z-index: 2;
+    font-weight: 500;
+    color: white; 
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+    

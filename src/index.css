@@ -1,4 +1,4 @@
-
+/* 
 :root {
     --white: #fff;
     --black: #111;
@@ -27,14 +27,6 @@
     scroll-behavior: smooth;
   }
   
-  body {
-    margin: 0;
-    font-family: "Inter", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: var(--black);
-    overflow-x: hidden;
-  }
   
   h1,
   h2,
@@ -105,4 +97,12 @@
     text-decoration: none;
     color: var(--white) !important;
   }
-    
+     */
+     body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: var(--black);
+      overflow-x: hidden;
+    }
